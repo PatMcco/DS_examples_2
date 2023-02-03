@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "DS_examples_2",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "queues::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-queues-Debug-0b4cac34792d6dd13622.json",
+					"name" : "queues",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "smart_pointers::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-smart_pointers-Debug-322bb131101ba4c994a8.json",
+					"name" : "smart_pointers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stacks::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stacks-Debug-6e254e7f3ab3b5e9082a.json",
+					"name" : "stacks",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/cormi/Documents/FINAL-SEMESTER/Data_Structures/DS_examples_2/cmake-build-debug",
+		"source" : "C:/Users/cormi/Documents/FINAL-SEMESTER/Data_Structures/DS_examples_2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

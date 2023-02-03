@@ -1,0 +1,5 @@
+C:/Users/cormi/Documents/FINAL-SEMESTER/Data_Structures/DS_examples_2/cmake-build-debug/CMakeFiles/queues.dir
+C:/Users/cormi/Documents/FINAL-SEMESTER/Data_Structures/DS_examples_2/cmake-build-debug/CMakeFiles/smart_pointers.dir
+C:/Users/cormi/Documents/FINAL-SEMESTER/Data_Structures/DS_examples_2/cmake-build-debug/CMakeFiles/stacks.dir
+C:/Users/cormi/Documents/FINAL-SEMESTER/Data_Structures/DS_examples_2/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/cormi/Documents/FINAL-SEMESTER/Data_Structures/DS_examples_2/cmake-build-debug/CMakeFiles/rebuild_cache.dir

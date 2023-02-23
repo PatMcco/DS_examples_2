@@ -139,6 +139,105 @@ build stacks.exe: CXX_EXECUTABLE_LINKER__stacks_Debug CMakeFiles/stacks.dir/stac
   TARGET_IMPLIB = libstacks.dll.a
   TARGET_PDB = stacks.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target palindrome
+
+
+#############################################
+# Order-only phony target for palindrome
+
+build cmake_object_order_depends_target_palindrome: phony || CMakeFiles/palindrome.dir
+
+build CMakeFiles/palindrome.dir/palindrome/palindrome.cpp.obj: CXX_COMPILER__palindrome_Debug C$:/Users/cormi/Documents/FINAL-SEMESTER/Data_Structures/DS_examples_2/palindrome/palindrome.cpp || cmake_object_order_depends_target_palindrome
+  DEP_FILE = CMakeFiles\palindrome.dir\palindrome\palindrome.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++23
+  OBJECT_DIR = CMakeFiles\palindrome.dir
+  OBJECT_FILE_DIR = CMakeFiles\palindrome.dir\palindrome
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target palindrome
+
+
+#############################################
+# Link the executable palindrome.exe
+
+build palindrome.exe: CXX_EXECUTABLE_LINKER__palindrome_Debug CMakeFiles/palindrome.dir/palindrome/palindrome.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\palindrome.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = palindrome.exe
+  TARGET_IMPLIB = libpalindrome.dll.a
+  TARGET_PDB = palindrome.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target factorial
+
+
+#############################################
+# Order-only phony target for factorial
+
+build cmake_object_order_depends_target_factorial: phony || CMakeFiles/factorial.dir
+
+build CMakeFiles/factorial.dir/factorial/factorial.cpp.obj: CXX_COMPILER__factorial_Debug C$:/Users/cormi/Documents/FINAL-SEMESTER/Data_Structures/DS_examples_2/factorial/factorial.cpp || cmake_object_order_depends_target_factorial
+  DEP_FILE = CMakeFiles\factorial.dir\factorial\factorial.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++23
+  OBJECT_DIR = CMakeFiles\factorial.dir
+  OBJECT_FILE_DIR = CMakeFiles\factorial.dir\factorial
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target factorial
+
+
+#############################################
+# Link the executable factorial.exe
+
+build factorial.exe: CXX_EXECUTABLE_LINKER__factorial_Debug CMakeFiles/factorial.dir/factorial/factorial.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\factorial.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = factorial.exe
+  TARGET_IMPLIB = libfactorial.dll.a
+  TARGET_PDB = factorial.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target list_folders
+
+
+#############################################
+# Order-only phony target for list_folders
+
+build cmake_object_order_depends_target_list_folders: phony || CMakeFiles/list_folders.dir
+
+build CMakeFiles/list_folders.dir/list_folders/list_folders.cpp.obj: CXX_COMPILER__list_folders_Debug C$:/Users/cormi/Documents/FINAL-SEMESTER/Data_Structures/DS_examples_2/list_folders/list_folders.cpp || cmake_object_order_depends_target_list_folders
+  DEP_FILE = CMakeFiles\list_folders.dir\list_folders\list_folders.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++23
+  OBJECT_DIR = CMakeFiles\list_folders.dir
+  OBJECT_FILE_DIR = CMakeFiles\list_folders.dir\list_folders
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target list_folders
+
+
+#############################################
+# Link the executable list_folders.exe
+
+build list_folders.exe: CXX_EXECUTABLE_LINKER__list_folders_Debug CMakeFiles/list_folders.dir/list_folders/list_folders.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\list_folders.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = list_folders.exe
+  TARGET_IMPLIB = liblist_folders.dll.a
+  TARGET_PDB = list_folders.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -165,6 +264,12 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build factorial: phony factorial.exe
+
+build list_folders: phony list_folders.exe
+
+build palindrome: phony palindrome.exe
+
 build queues: phony queues.exe
 
 build smart_pointers: phony smart_pointers.exe
@@ -179,7 +284,7 @@ build stacks: phony stacks.exe
 #############################################
 # Folder: C:/Users/cormi/Documents/FINAL-SEMESTER/Data_Structures/DS_examples_2/cmake-build-debug
 
-build all: phony queues.exe smart_pointers.exe stacks.exe
+build all: phony queues.exe smart_pointers.exe stacks.exe palindrome.exe factorial.exe list_folders.exe
 
 # =============================================================================
 # Built-in targets

@@ -238,6 +238,39 @@ build list_folders.exe: CXX_EXECUTABLE_LINKER__list_folders_Debug CMakeFiles/lis
   TARGET_IMPLIB = liblist_folders.dll.a
   TARGET_PDB = list_folders.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target binary_search_tree
+
+
+#############################################
+# Order-only phony target for binary_search_tree
+
+build cmake_object_order_depends_target_binary_search_tree: phony || CMakeFiles/binary_search_tree.dir
+
+build CMakeFiles/binary_search_tree.dir/binary_search_tree/main.cpp.obj: CXX_COMPILER__binary_search_tree_Debug C$:/Users/cormi/Documents/FINAL-SEMESTER/Data_Structures/DS_examples_2/binary_search_tree/main.cpp || cmake_object_order_depends_target_binary_search_tree
+  DEP_FILE = CMakeFiles\binary_search_tree.dir\binary_search_tree\main.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++23
+  OBJECT_DIR = CMakeFiles\binary_search_tree.dir
+  OBJECT_FILE_DIR = CMakeFiles\binary_search_tree.dir\binary_search_tree
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target binary_search_tree
+
+
+#############################################
+# Link the executable binary_search_tree.exe
+
+build binary_search_tree.exe: CXX_EXECUTABLE_LINKER__binary_search_tree_Debug CMakeFiles/binary_search_tree.dir/binary_search_tree/main.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\binary_search_tree.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = binary_search_tree.exe
+  TARGET_IMPLIB = libbinary_search_tree.dll.a
+  TARGET_PDB = binary_search_tree.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -264,6 +297,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build binary_search_tree: phony binary_search_tree.exe
+
 build factorial: phony factorial.exe
 
 build list_folders: phony list_folders.exe
@@ -284,7 +319,7 @@ build stacks: phony stacks.exe
 #############################################
 # Folder: C:/Users/cormi/Documents/FINAL-SEMESTER/Data_Structures/DS_examples_2/cmake-build-debug
 
-build all: phony queues.exe smart_pointers.exe stacks.exe palindrome.exe factorial.exe list_folders.exe
+build all: phony queues.exe smart_pointers.exe stacks.exe palindrome.exe factorial.exe list_folders.exe binary_search_tree.exe
 
 # =============================================================================
 # Built-in targets

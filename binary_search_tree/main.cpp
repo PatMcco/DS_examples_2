@@ -88,6 +88,7 @@ public:
     }
 
 private:
+    // for rebalancing, update heights as nodes are added
     void insert(int num, NodePtr& node) {
         if(node == nullptr) {
             node = new Node();

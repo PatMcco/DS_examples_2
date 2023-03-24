@@ -6,5 +6,8 @@ C:/Users/cormi/Documents/FINAL-SEMESTER/Data_Structures/DS_examples_2/cmake-buil
 C:/Users/cormi/Documents/FINAL-SEMESTER/Data_Structures/DS_examples_2/cmake-build-debug/CMakeFiles/list_folders.dir
 C:/Users/cormi/Documents/FINAL-SEMESTER/Data_Structures/DS_examples_2/cmake-build-debug/CMakeFiles/binary_search_tree.dir
 C:/Users/cormi/Documents/FINAL-SEMESTER/Data_Structures/DS_examples_2/cmake-build-debug/CMakeFiles/bubble_sort.dir
+C:/Users/cormi/Documents/FINAL-SEMESTER/Data_Structures/DS_examples_2/cmake-build-debug/CMakeFiles/selection_sort.dir
+C:/Users/cormi/Documents/FINAL-SEMESTER/Data_Structures/DS_examples_2/cmake-build-debug/CMakeFiles/insert_sort.dir
+C:/Users/cormi/Documents/FINAL-SEMESTER/Data_Structures/DS_examples_2/cmake-build-debug/CMakeFiles/shell_sort.dir
 C:/Users/cormi/Documents/FINAL-SEMESTER/Data_Structures/DS_examples_2/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/cormi/Documents/FINAL-SEMESTER/Data_Structures/DS_examples_2/cmake-build-debug/CMakeFiles/rebuild_cache.dir

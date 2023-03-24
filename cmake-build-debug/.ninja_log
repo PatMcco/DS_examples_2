@@ -13,12 +13,14 @@
 625	750	6971445712148627	stacks.exe	4c79b9b977feb298
 11	719	6992218771687914	CMakeFiles/factorial.dir/factorial/factorial.cpp.obj	e89713a0df228a98
 720	860	6992218773037584	factorial.exe	43d7ca187dce6f65
+4	770	7013707544338157	CMakeFiles/bubble_sort.dir/bubble_sort/bubble.cpp.obj	e7149411f6d538fb
 17	1839	6992218782887863	CMakeFiles/list_folders.dir/list_folders/list_folders.cpp.obj	36ed7aeb17195b80
+3	886	7013716412751743	CMakeFiles/selection_sort.dir/selection_sort/selection.cpp.obj	dd6b43016c8237d8
 1839	2027	6992218784757923	list_folders.exe	786ae7816e0d7616
 736	879	6992218773257546	palindrome.exe	66152dba708ac856
 3	688	6994805531187435	CMakeFiles/binary_search_tree.dir/binary_search_tree/main.cpp.obj	a08adf2b5b0e7f62
 688	808	6994805532357416	binary_search_tree.exe	40f38d9c4c614eec
-0	560	7013698088448157	CMakeFiles/bubble_sort.dir/bubble_sort/bubble.cpp.obj	e7149411f6d538fb
-561	792	7013698090730998	bubble_sort.exe	11ca351ffe1bb2a1
-4	770	7013707544338157	CMakeFiles/bubble_sort.dir/bubble_sort/bubble.cpp.obj	e7149411f6d538fb
 770	894	7013707545568514	bubble_sort.exe	11ca351ffe1bb2a1
+887	999	7013716413842512	selection_sort.exe	bf791fbc087a4709
+1	896	7013737028784183	CMakeFiles/shell_sort.dir/shell_sort/shell.cpp.obj	67208ee7827ef498
+897	1066	7013737030474190	shell_sort.exe	1267a4e151b37c58

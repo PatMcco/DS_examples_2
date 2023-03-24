@@ -304,6 +304,105 @@ build bubble_sort.exe: CXX_EXECUTABLE_LINKER__bubble_sort_Debug CMakeFiles/bubbl
   TARGET_IMPLIB = libbubble_sort.dll.a
   TARGET_PDB = bubble_sort.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target selection_sort
+
+
+#############################################
+# Order-only phony target for selection_sort
+
+build cmake_object_order_depends_target_selection_sort: phony || CMakeFiles/selection_sort.dir
+
+build CMakeFiles/selection_sort.dir/selection_sort/selection.cpp.obj: CXX_COMPILER__selection_sort_Debug C$:/Users/cormi/Documents/FINAL-SEMESTER/Data_Structures/DS_examples_2/selection_sort/selection.cpp || cmake_object_order_depends_target_selection_sort
+  DEP_FILE = CMakeFiles\selection_sort.dir\selection_sort\selection.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++23
+  OBJECT_DIR = CMakeFiles\selection_sort.dir
+  OBJECT_FILE_DIR = CMakeFiles\selection_sort.dir\selection_sort
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target selection_sort
+
+
+#############################################
+# Link the executable selection_sort.exe
+
+build selection_sort.exe: CXX_EXECUTABLE_LINKER__selection_sort_Debug CMakeFiles/selection_sort.dir/selection_sort/selection.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\selection_sort.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = selection_sort.exe
+  TARGET_IMPLIB = libselection_sort.dll.a
+  TARGET_PDB = selection_sort.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target insert_sort
+
+
+#############################################
+# Order-only phony target for insert_sort
+
+build cmake_object_order_depends_target_insert_sort: phony || CMakeFiles/insert_sort.dir
+
+build CMakeFiles/insert_sort.dir/insert_sort/insertion.cpp.obj: CXX_COMPILER__insert_sort_Debug C$:/Users/cormi/Documents/FINAL-SEMESTER/Data_Structures/DS_examples_2/insert_sort/insertion.cpp || cmake_object_order_depends_target_insert_sort
+  DEP_FILE = CMakeFiles\insert_sort.dir\insert_sort\insertion.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++23
+  OBJECT_DIR = CMakeFiles\insert_sort.dir
+  OBJECT_FILE_DIR = CMakeFiles\insert_sort.dir\insert_sort
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target insert_sort
+
+
+#############################################
+# Link the executable insert_sort.exe
+
+build insert_sort.exe: CXX_EXECUTABLE_LINKER__insert_sort_Debug CMakeFiles/insert_sort.dir/insert_sort/insertion.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\insert_sort.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = insert_sort.exe
+  TARGET_IMPLIB = libinsert_sort.dll.a
+  TARGET_PDB = insert_sort.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target shell_sort
+
+
+#############################################
+# Order-only phony target for shell_sort
+
+build cmake_object_order_depends_target_shell_sort: phony || CMakeFiles/shell_sort.dir
+
+build CMakeFiles/shell_sort.dir/shell_sort/shell.cpp.obj: CXX_COMPILER__shell_sort_Debug C$:/Users/cormi/Documents/FINAL-SEMESTER/Data_Structures/DS_examples_2/shell_sort/shell.cpp || cmake_object_order_depends_target_shell_sort
+  DEP_FILE = CMakeFiles\shell_sort.dir\shell_sort\shell.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++23
+  OBJECT_DIR = CMakeFiles\shell_sort.dir
+  OBJECT_FILE_DIR = CMakeFiles\shell_sort.dir\shell_sort
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target shell_sort
+
+
+#############################################
+# Link the executable shell_sort.exe
+
+build shell_sort.exe: CXX_EXECUTABLE_LINKER__shell_sort_Debug CMakeFiles/shell_sort.dir/shell_sort/shell.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\shell_sort.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = shell_sort.exe
+  TARGET_IMPLIB = libshell_sort.dll.a
+  TARGET_PDB = shell_sort.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -336,11 +435,17 @@ build bubble_sort: phony bubble_sort.exe
 
 build factorial: phony factorial.exe
 
+build insert_sort: phony insert_sort.exe
+
 build list_folders: phony list_folders.exe
 
 build palindrome: phony palindrome.exe
 
 build queues: phony queues.exe
+
+build selection_sort: phony selection_sort.exe
+
+build shell_sort: phony shell_sort.exe
 
 build smart_pointers: phony smart_pointers.exe
 
@@ -354,7 +459,7 @@ build stacks: phony stacks.exe
 #############################################
 # Folder: C:/Users/cormi/Documents/FINAL-SEMESTER/Data_Structures/DS_examples_2/cmake-build-debug
 
-build all: phony queues.exe smart_pointers.exe stacks.exe palindrome.exe factorial.exe list_folders.exe binary_search_tree.exe bubble_sort.exe
+build all: phony queues.exe smart_pointers.exe stacks.exe palindrome.exe factorial.exe list_folders.exe binary_search_tree.exe bubble_sort.exe selection_sort.exe insert_sort.exe shell_sort.exe
 
 # =============================================================================
 # Built-in targets

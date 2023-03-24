@@ -271,6 +271,39 @@ build binary_search_tree.exe: CXX_EXECUTABLE_LINKER__binary_search_tree_Debug CM
   TARGET_IMPLIB = libbinary_search_tree.dll.a
   TARGET_PDB = binary_search_tree.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target bubble_sort
+
+
+#############################################
+# Order-only phony target for bubble_sort
+
+build cmake_object_order_depends_target_bubble_sort: phony || CMakeFiles/bubble_sort.dir
+
+build CMakeFiles/bubble_sort.dir/bubble_sort/bubble.cpp.obj: CXX_COMPILER__bubble_sort_Debug C$:/Users/cormi/Documents/FINAL-SEMESTER/Data_Structures/DS_examples_2/bubble_sort/bubble.cpp || cmake_object_order_depends_target_bubble_sort
+  DEP_FILE = CMakeFiles\bubble_sort.dir\bubble_sort\bubble.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++23
+  OBJECT_DIR = CMakeFiles\bubble_sort.dir
+  OBJECT_FILE_DIR = CMakeFiles\bubble_sort.dir\bubble_sort
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target bubble_sort
+
+
+#############################################
+# Link the executable bubble_sort.exe
+
+build bubble_sort.exe: CXX_EXECUTABLE_LINKER__bubble_sort_Debug CMakeFiles/bubble_sort.dir/bubble_sort/bubble.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\bubble_sort.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = bubble_sort.exe
+  TARGET_IMPLIB = libbubble_sort.dll.a
+  TARGET_PDB = bubble_sort.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -299,6 +332,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build binary_search_tree: phony binary_search_tree.exe
 
+build bubble_sort: phony bubble_sort.exe
+
 build factorial: phony factorial.exe
 
 build list_folders: phony list_folders.exe
@@ -319,7 +354,7 @@ build stacks: phony stacks.exe
 #############################################
 # Folder: C:/Users/cormi/Documents/FINAL-SEMESTER/Data_Structures/DS_examples_2/cmake-build-debug
 
-build all: phony queues.exe smart_pointers.exe stacks.exe palindrome.exe factorial.exe list_folders.exe binary_search_tree.exe
+build all: phony queues.exe smart_pointers.exe stacks.exe palindrome.exe factorial.exe list_folders.exe binary_search_tree.exe bubble_sort.exe
 
 # =============================================================================
 # Built-in targets

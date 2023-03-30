@@ -403,6 +403,72 @@ build shell_sort.exe: CXX_EXECUTABLE_LINKER__shell_sort_Debug CMakeFiles/shell_s
   TARGET_IMPLIB = libshell_sort.dll.a
   TARGET_PDB = shell_sort.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target merge_sort
+
+
+#############################################
+# Order-only phony target for merge_sort
+
+build cmake_object_order_depends_target_merge_sort: phony || CMakeFiles/merge_sort.dir
+
+build CMakeFiles/merge_sort.dir/merge_sort/main.cpp.obj: CXX_COMPILER__merge_sort_Debug C$:/Users/cormi/Documents/FINAL-SEMESTER/Data_Structures/DS_examples_2/merge_sort/main.cpp || cmake_object_order_depends_target_merge_sort
+  DEP_FILE = CMakeFiles\merge_sort.dir\merge_sort\main.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++23
+  OBJECT_DIR = CMakeFiles\merge_sort.dir
+  OBJECT_FILE_DIR = CMakeFiles\merge_sort.dir\merge_sort
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target merge_sort
+
+
+#############################################
+# Link the executable merge_sort.exe
+
+build merge_sort.exe: CXX_EXECUTABLE_LINKER__merge_sort_Debug CMakeFiles/merge_sort.dir/merge_sort/main.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\merge_sort.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = merge_sort.exe
+  TARGET_IMPLIB = libmerge_sort.dll.a
+  TARGET_PDB = merge_sort.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target quick_sort
+
+
+#############################################
+# Order-only phony target for quick_sort
+
+build cmake_object_order_depends_target_quick_sort: phony || CMakeFiles/quick_sort.dir
+
+build CMakeFiles/quick_sort.dir/quick_sort/main.cpp.obj: CXX_COMPILER__quick_sort_Debug C$:/Users/cormi/Documents/FINAL-SEMESTER/Data_Structures/DS_examples_2/quick_sort/main.cpp || cmake_object_order_depends_target_quick_sort
+  DEP_FILE = CMakeFiles\quick_sort.dir\quick_sort\main.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++23
+  OBJECT_DIR = CMakeFiles\quick_sort.dir
+  OBJECT_FILE_DIR = CMakeFiles\quick_sort.dir\quick_sort
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target quick_sort
+
+
+#############################################
+# Link the executable quick_sort.exe
+
+build quick_sort.exe: CXX_EXECUTABLE_LINKER__quick_sort_Debug CMakeFiles/quick_sort.dir/quick_sort/main.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\quick_sort.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = quick_sort.exe
+  TARGET_IMPLIB = libquick_sort.dll.a
+  TARGET_PDB = quick_sort.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -439,9 +505,13 @@ build insert_sort: phony insert_sort.exe
 
 build list_folders: phony list_folders.exe
 
+build merge_sort: phony merge_sort.exe
+
 build palindrome: phony palindrome.exe
 
 build queues: phony queues.exe
+
+build quick_sort: phony quick_sort.exe
 
 build selection_sort: phony selection_sort.exe
 
@@ -459,7 +529,7 @@ build stacks: phony stacks.exe
 #############################################
 # Folder: C:/Users/cormi/Documents/FINAL-SEMESTER/Data_Structures/DS_examples_2/cmake-build-debug
 
-build all: phony queues.exe smart_pointers.exe stacks.exe palindrome.exe factorial.exe list_folders.exe binary_search_tree.exe bubble_sort.exe selection_sort.exe insert_sort.exe shell_sort.exe
+build all: phony queues.exe smart_pointers.exe stacks.exe palindrome.exe factorial.exe list_folders.exe binary_search_tree.exe bubble_sort.exe selection_sort.exe insert_sort.exe shell_sort.exe merge_sort.exe quick_sort.exe
 
 # =============================================================================
 # Built-in targets
